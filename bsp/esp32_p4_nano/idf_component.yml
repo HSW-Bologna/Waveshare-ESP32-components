@@ -3,9 +3,10 @@ dependencies:
     public: true
     version: 1.2.*
   esp_lcd_touch_gt911: ^1
-  espressif/esp_lvgl_port:
+  esp_lvgl_port:
     public: true
-    version: ^2
+    path: components/esp_lvgl_port
+    git: https://github.com/HSW-Bologna/esp-bsp.git
   idf: '>=5.3'
   lvgl/lvgl: '>=8,<10'
   waveshare/esp_lcd_jd9365_10_1: '*'
